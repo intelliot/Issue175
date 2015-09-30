@@ -1,0 +1,43 @@
+PODS:
+  - Braintree (3.9.4):
+    - Braintree/API (= 3.9.4)
+    - Braintree/Coinbase (= 3.9.4)
+    - Braintree/Drop-In (= 3.9.4)
+    - Braintree/Payments (= 3.9.4)
+    - Braintree/PayPal (= 3.9.4)
+    - Braintree/UI (= 3.9.4)
+    - Braintree/Venmo (= 3.9.4)
+  - Braintree/API (3.9.4)
+  - Braintree/Coinbase (3.9.4):
+    - Braintree/API
+  - Braintree/Data (3.9.4):
+    - Braintree/API
+    - Braintree/PayPal
+  - Braintree/Drop-In (3.9.4):
+    - Braintree/API
+    - Braintree/Coinbase
+    - Braintree/Payments
+    - Braintree/PayPal
+    - Braintree/UI
+    - Braintree/Venmo
+  - Braintree/Payments (3.9.4):
+    - Braintree/API
+    - Braintree/Coinbase
+    - Braintree/PayPal
+    - Braintree/Venmo
+  - Braintree/PayPal (3.9.4):
+    - Braintree/API
+    - Braintree/UI
+  - Braintree/UI (3.9.4):
+    - Braintree/API
+  - Braintree/Venmo (3.9.4):
+    - Braintree/API
+
+DEPENDENCIES:
+  - Braintree
+  - Braintree/Data
+
+SPEC CHECKSUMS:
+  Braintree: 468112f669ef890da2f65b6b3ea8568a3c81d845
+
+COCOAPODS: 0.38.2
